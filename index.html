@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Qrcode Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="header">
+      <div class="title">Qrcodes</div>
+      <div class="sub-title">Generator Qrcode !</div>
+    </section>
+    <section class="input">
+      <label for="input-text">Fill your link...</label>
+      <input type="text" name="input-text" id="input-text" autocomplete="off" />
+      <button class="button" type="submit">Generate</button>
+    </section>
+    <div class="qr-code" style="display: none"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="/script.js"></script>
+  </body>
+</html>
