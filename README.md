@@ -17,4 +17,3 @@ function generate(input) {
     correctLevel: QRCode.CorrectLevel.H
   });
 ```
-dDD
